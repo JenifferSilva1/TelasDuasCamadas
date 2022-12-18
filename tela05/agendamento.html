@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Agendamento</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="/Projeto-main/index.html" class="navbar-brand">
+                    <img id="logo" src="img/logo.svg" alt="Duas Camadas" title="Página inicial">
+                </a>
+    </header>
+    <div class="principal" id="form">
+        <form class="px-4 py-3">
+            <div class="checkbox">
+                <h4>Agendamento</h4>
+                <h3>Horário das 09h00 às 16h30min.</h3>
+            </div>
+
+
+
+
+            <div class="checkbox">
+                <h4>Qual modelo de unha deseja fazer? </h4>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Fibra de vidro </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Porcelana </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Gel </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Acrílico </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Polygel </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="check-label" for="dropdownCheck"> Unhas de Acrigel </label><br>
+            </div>
+            <div class="checkbox">
+                <label class="label" id="titulo" for="Contato1">
+                    <h4>Cor da unha </h4>
+                </label>
+                <div class="input">
+                    <input type="text" rows=8 class="form-control" id="biografia"
+                        placeholder="Exemplo: azul, rosa...">
+                </div>
+            </div>
+            <div id="btn">
+             <button class="btn1" type="submit" id="btn"><a href="/Chat duas camadas/chat.html">  Confirmar</a>  
+            </div> <br>
+        </form>
+</body>
+
+</html>

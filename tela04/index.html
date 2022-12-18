@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- modelo de unhas -->
+    <title>Tela de Cadastro 4</title>
+</head>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/logo.svg" alt="Duas Camadas">
+                </a>
+    </header>
+    <div class="principal" id="form">
+        <form class="px-4 py-3" name="forms" id="formulario">
+            <div class="checkbox">
+                <h4>Você aceita ir ao local do(a) cliente?</h4>
+                <input type="radio" class="form-check-input" id="dropdownCheck" name="local">
+                <label class="check-label" for="dropdownCheck"> Sim </label>
+                <input type="radio" class="form-check-input" id="dropdownCheck" name="local">
+                <label class="check-label" for="dropdownCheck"> Não </label>
+            </div>
+
+            <div class="checkbox">
+                <h4>Com quais estilos de unhas você trabalha?</h4>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Fibra de vidro">
+                <label class="check-label" for="dropdownCheck"> Unhas de Fibra de vidro </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Porcelana">
+                <label class="check-label" for="dropdownCheck"> Unhas de Porcelana </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Gel">
+                <label class="check-label" for="dropdownCheck"> Unhas de Gel </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Acrílico">
+                <label class="check-label" for="dropdownCheck"> Unhas de Acrílico </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Polygel">
+                <label class="check-label" for="dropdownCheck"> Unhas de Polygel </label><br>
+                <input type="checkbox" class="form-check-input" id="dropdownCheck" name="trabalho" value="Unhas de Acrigel">
+                <label class="check-label" for="dropdownCheck"> Unhas de Acrigel </label><br>
+            </div>
+            <div class="checkbox">
+                <label class="label" id="titulo" for="Contato1">
+                    <h4>Biografia </h4>
+                </label>
+                <div class="input">
+                    <input type="text" rows=8 class="bibiografia" id="bibiografia"
+                        placeholder="Nos conte um pouco sobre você...">
+                </div>
+            </div>
+            <div id="btn">
+                <button class="btn" type="submit" id="btn" onclick="botao()"><span>Cadastre-se</span>
+            </div> <br>
+            <div id="feadbeek">
+                <h2>Sucesso</h2>
+            </div>
+        </form>
+</body>
+
+</html>
